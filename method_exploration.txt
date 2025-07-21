@@ -2706,7 +2706,7 @@ if __name__ == "__main__":
 
 
 
-Use of the pedantic model
+Use of the pydantic model
 for the structured output generation using the LLM 
 
 
@@ -2911,3 +2911,11 @@ review_text = llm.chat.completions.create(
 - Serialize with `.model_dump_json()` (Pydantic v2) or `.json()` (Pydantic v1).
 
 Let me know if you want a full example with LLM integration!
+
+
+Pydantic tutorial - https://www.datacamp.com/tutorial/pydantic
+Other community thread - https://community.openai.com/t/how-to-define-pydantic-json-schema/988192/3
+Official documentation - https://docs.pydantic.dev/latest/concepts/json_schema/ 
+OpenAI syn data cookbook - https://cookbook.openai.com/examples/sdg1 
+OpenAI cookbook for syn data validation - https://cookbook.openai.com/examples/o1/using_reasoning_for_data_validation
+OpenAI cookbook for the structured output - https://cookbook.openai.com/examples/structured_outputs_intro 
